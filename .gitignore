@@ -1,0 +1,5 @@
+*venv
+.idea
+
+fake_and_real_news_dataset.csv
+joined_text.txt

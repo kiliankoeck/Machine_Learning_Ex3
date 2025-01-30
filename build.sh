@@ -18,5 +18,10 @@ fi
 echo "Installing required packages"
 pip install -r requirements.txt
 
-echo "Build Complete. Run the program using:"
-echo "python main.py --input path/to/dataset --output path/to/output"
+echo "Build Complete."
+echo "Train a model using:"
+echo "python train_model.py"
+echo "Predict using a trained model with:"
+echo "python next_word.py"
+
+echo "See further details for command options using --help"
